@@ -4,7 +4,7 @@ import './Card.css';
 
 export const Card = ({ imageSrc, name, description, id }) => {
     return (
-      <Link to={`/restaurant/${id}`} className="card"> {/* Add Link for routing */}
+      <Link to={`/restaurant/${id}`} className="card">
         <img src={imageSrc} alt={`${name} Image`} className="restaurant-image" />
         <div className="card-content">
           <h2 className="restaurant-name">{name}</h2>

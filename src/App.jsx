@@ -1,10 +1,7 @@
 import React from 'react';
 import "./app.css";
 import { BrowserRouter , Routes , Route , Link, Outlet } from 'react-router-dom';
-import { HomePage } from './components/Homepage';
-import { UserProfile } from './components/UserProfile';
-import { About } from './components/About';
-import { Contact } from './components/Contact';
+import { HomePage } from './components/HomePage';
 import { Login } from './components/Login';
 import { Signup } from './components/Signup';
 import { FindRestaurant } from './components/FindRestaurant';
@@ -80,7 +77,7 @@ function Layout() {
 
 function ErrorLandingPage() {
   return <div>
-    Page Not Found
+    <h1>Page Not Found</h1>
   </div>
 }
 export default App

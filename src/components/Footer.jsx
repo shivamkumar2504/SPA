@@ -3,7 +3,7 @@ import facebookIcon from './facebook.png';
 import twitterIcon from './logos.png';
 import youtubeIcon from './play.png';
 import googlePlayIcon from './bothappgoogle-removebg-preview.png';
-import './footer.css';
+import './Footer.css';
 
 
 export const Footer = () => {

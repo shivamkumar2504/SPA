@@ -2,7 +2,7 @@ import './hp.css';
 import wall from './wall3.png';
 import { Link } from 'react-router-dom';
 export const HomePage = () => {
-  return <div className="home" style={{ backgroundImage: `url(${wall})` }}>
+  return <div className="home" style={{ backgroundImage: `url(${wall})`}}>
   <div className="headerContainer">
     <span style={{fontSize:"70px",color:"white"}}>Dine Reserve</span>
     <p>Best Restaurants In India</p>
@@ -11,5 +11,5 @@ export const HomePage = () => {
     </Link>
   </div>
 </div>
-
 };
+
