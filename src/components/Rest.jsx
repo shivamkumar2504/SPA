@@ -1,12 +1,12 @@
 
 import { Card } from './Card'; 
-import './Rest.css';
-import restaurant1 from './restaurant1.jpg';
-import restaurant2 from './restaurant2.jpeg';
-import restaurant3 from './restaurant3.jpeg';
-import restaurant4 from './restaurant4.jpg';
-import restaurant5 from './restaurant5.jpg';
-import restaurant6 from './restaurant6.jpeg';
+import '.././css/Rest.css';
+import restaurant1 from '.././img/restaurant1.jpg';
+import restaurant2 from '.././img/restaurant2.jpeg';
+import restaurant3 from '.././img/restaurant3.jpeg';
+import restaurant4 from '.././img/restaurant4.jpg';
+import restaurant5 from '.././img/restaurant5.jpg';
+import restaurant6 from '.././img/restaurant6.jpeg';
 
 export const Rest = () => {
     const restaurants = [

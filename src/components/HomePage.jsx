@@ -1,5 +1,5 @@
-import './hp.css';
-import wall from './wall3.png';
+import '.././css/hp.css';
+import wall from '.././img/wall3.png';
 import { Link } from 'react-router-dom';
 export const HomePage = () => {
   return <div className="home" style={{ backgroundImage: `url(${wall})`}}>

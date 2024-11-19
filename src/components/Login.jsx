@@ -1,4 +1,4 @@
-import './login.css';
+import '.././css/login.css';
 export const Login = () => {
     return <div style={{display:"flex",justifyContent:"center",paddingTop:"70px"}}>
 

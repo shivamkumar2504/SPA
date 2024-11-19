@@ -1,9 +1,9 @@
-import instagramIcon from './instagram.png';
-import facebookIcon from './facebook.png';
-import twitterIcon from './logos.png';
-import youtubeIcon from './play.png';
-import googlePlayIcon from './bothappgoogle-removebg-preview.png';
-import './Footer.css';
+import instagramIcon from '.././img/instagram.png';
+import facebookIcon from '.././img/facebook.png';
+import twitterIcon from '.././img/logos.png';
+import youtubeIcon from '.././img/play.png';
+import googlePlayIcon from '.././img/bothappgoogle-removebg-preview.png';
+import '.././css/Footer.css';
 
 
 export const Footer = () => {

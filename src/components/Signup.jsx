@@ -1,4 +1,4 @@
-import './signup.css';
+import '.././css/signup.css';
 export const Signup = () => {
     return <div style={{display:"flex",justifyContent:"center",paddingTop:"70px"}}>
               <div class="SignUpBox">
