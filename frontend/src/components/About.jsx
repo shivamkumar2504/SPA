@@ -12,17 +12,8 @@ const About = () => {
               <p>The only thing we're serious about is food.</p>
             </div>
             <p className="mid">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Provident possimus optio adipisci dolores impedit illum iusto
-              perferendis, laudantium quod accusamus consequuntur consectetur,
-              tempore nulla error iure reiciendis dolorem assumenda.
-              Necessitatibus fugit asperiores totam rem esse exercitationem
-              iusto ipsum qui dolore ex, accusantium repellat mollitia
-              repellendus.
+            Founded in 2010, The Dine Reserve was born out of a passion for exceptional cuisine and a desire to create memorable dining experiences for our guests. What started as a small family-run restaurant has now grown into a full-fledged dining destination, renowned for its diverse menu and exceptional service. We believe that food should not only nourish the body but also bring people together. Over the years, we have welcomed thousands of guests, providing them with the finest culinary experiences in a warm and inviting atmosphere.
             </p>
-            <Link to={"/"}>
-              Explore Menu{" "}
-            </Link>
           </div>
           <div className="banner">
             <img src="about.png" alt="about" />

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { data } from "../restApi.json";
 import { Link } from "react-scroll";
+
 const Navbar = () => {
   const [show, setShow] = useState(false);
   return (
@@ -20,9 +21,7 @@ const Navbar = () => {
               </Link>
             ))}
           </div>
-          <button className="menuBtn">OUR MENU</button>
-        </div>
-        <div className="hamburger" onClick={()=> setShow(!show)}>
+          <button className="menuBtn"><Link to="menu" smooth={true} duration={500}>OUR MENU</Link></button>
         </div>
       </nav>
     </>
